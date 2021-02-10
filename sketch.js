@@ -48,7 +48,7 @@ function setup() {
   trex = createSprite(50,windowHeight-60,20,50);
   trex.addAnimation("running",trex_running);
   trex.addAnimation("collided",trex_collided);
-  trex.x = width/2;
+  //trex.x = width/2;
 
   trex.scale = 0.5;
 
